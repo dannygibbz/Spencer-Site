@@ -57,16 +57,7 @@ p {
     background: rgba(0, 0, 0, 0.7);
 }
 
-#diamond:after {
-    content: '';
-    position: absolute;
-    left: -50px;
-    top: 50px;
-    width: 0;
-    height: 0;
-    border: 50px solid transparent;
-    border-top-color: red;
-  }
+
 
 /* Header Styles */
 
@@ -367,7 +358,7 @@ header {
 /* Tasteful recipes */
 
 .space-between {
-  background: url("images/edited-blue-2.png") center no-repeat;
+  background: url("images/typewriter.jpeg") center no-repeat;
   background-size: cover;
 }
 
@@ -392,7 +383,7 @@ header {
 
 /* The perfect blend */
 .perfect-blend {
-  background: url("images/HD.jpg") center no-repeat;
+  background: url("images/desk.jpeg") center no-repeat;
   background-size: cover;
 }
 
