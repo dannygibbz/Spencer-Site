@@ -44,19 +44,8 @@ sr.reveal(".animate-bottom", {
 });
 
 let message = document.getElementById("message");
-let twitter = document.getElementById("twitter");
 let facebook = document.getElementById("facebook");
-let pinterest = document.getElementById("pinterest");
 let linkedin = document.getElementById("linkedin");
-let tripadvisor = document.getElementById("tripadvisor");
-
-twitter.addEventListener("click", () => {
-  message.style.color = "#c59d5f";
-  message.innerText = "Links will be active soon!";
-  setTimeout(function () {
-    document.getElementById("message").innerText = "";
-  }, 3000);
-});
 
 facebook.addEventListener("click", () => {
   message.style.color = "#c59d5f";
@@ -66,23 +55,7 @@ facebook.addEventListener("click", () => {
   }, 3000);
 });
 
-pinterest.addEventListener("click", () => {
-  message.style.color = "#c59d5f";
-  message.innerText = "Links will be active soon!";
-  setTimeout(function () {
-    document.getElementById("message").innerText = "";
-  }, 3000);
-});
-
 linkedin.addEventListener("click", () => {
-  message.style.color = "#c59d5f";
-  message.innerText = "Links will be active soon!";
-  setTimeout(function () {
-    document.getElementById("message").innerText = "";
-  }, 3000);
-});
-
-tripadvisor.addEventListener("click", () => {
   message.style.color = "#c59d5f";
   message.innerText = "Links will be active soon!";
   setTimeout(function () {
