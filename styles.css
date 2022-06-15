@@ -163,7 +163,7 @@ header {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url("images/books-1.jpeg") center no-repeat;
+  background: url("images/books-1.webp") center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -358,7 +358,7 @@ header {
 /* Tasteful recipes */
 
 .space-between {
-  background: url("images/typewriter.jpeg") center no-repeat;
+  background: url("images/typewriter.webp") center no-repeat;
   background-size: cover;
 }
 
