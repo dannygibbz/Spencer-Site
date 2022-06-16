@@ -543,6 +543,35 @@ color: #C4A484;
     line-height: 25px;
 }
 
+.article-container{
+  border: 2px solid brown;
+  
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.article-container-header{
+  text-align: center;
+  width: 80%;
+  border-bottom: 1px solid #C4A484;
+  margin: 0 auto;
+  color: #C4A484;
+  }
+  
+  .article-container-header p{
+      padding: 20px;
+      font-size: 36px;
+  }
+
+.article-container-body p{
+  font-size: 17px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
 .read-more{
     display: block;
   color: brown;
