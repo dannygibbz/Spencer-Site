@@ -710,6 +710,31 @@ color: #C4A484;
  
 }
 
+@media screen and (max-width: 768px) {
+ .article-tile{
+   flex-direction: column;
+   
+ }
+
+ .article-selection-container{
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+ }
+
+
+
+ .article-selection-body p{
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 15px;
+}
+
+.article-container{
+  width: 90%;
+}
+}
+
 /* Animations */
 @keyframes fadeUp {
   0% {
