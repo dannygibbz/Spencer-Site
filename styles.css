@@ -537,6 +537,13 @@ color: #494747;
 padding-top: 5px;
 }
 
+.writing-type-text-excerpts{
+  font-size: 50px;
+  text-align: center;
+  color: #494747;
+  padding-top: 5px;
+  }
+
 
 
 .article-tile{
@@ -790,6 +797,10 @@ color: #C4A484;
 
 .writing-type-text{
 font-size: 36px;
+}
+
+#novel-excerpts{
+  font-size: 23px;
 }
 
 }
