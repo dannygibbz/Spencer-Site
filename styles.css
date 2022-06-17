@@ -629,6 +629,14 @@ color: #C4A484;
     cursor: pointer;
 }
 
+#desk-image:hover{
+  cursor: pointer;
+}
+
+#vitruvian-image:hover{
+  cursor: pointer;
+}
+
 /* media queries */
 
 @media screen and (min-width: 900px) {
