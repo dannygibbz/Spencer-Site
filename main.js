@@ -47,22 +47,6 @@ let message = document.getElementById("message");
 let facebook = document.getElementById("facebook");
 let linkedin = document.getElementById("linkedin");
 
-facebook.addEventListener("click", () => {
-  message.style.color = "#c59d5f";
-  message.innerText = "Links will be active soon!";
-  setTimeout(function () {
-    document.getElementById("message").innerText = "";
-  }, 3000);
-});
-
-linkedin.addEventListener("click", () => {
-  message.style.color = "#c59d5f";
-  message.innerText = "Links will be active soon!";
-  setTimeout(function () {
-    document.getElementById("message").innerText = "";
-  }, 3000);
-});
-
 let about = document.getElementById("about");
 let contactInfo = document.getElementById("contactInfo");
 let expertise = document.getElementById("expertise");
